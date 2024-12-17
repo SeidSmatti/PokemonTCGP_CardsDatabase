@@ -1,6 +1,6 @@
 # Card database for the main Pokémon TCGP cards
 
-## What is in this repo ? :
+## What is in this repo ? 
 As the title says,a list of all the cards (up to ⯁⯁⯁⯁) with their details (HP, attacks, effects, etc)
 
 ## About
