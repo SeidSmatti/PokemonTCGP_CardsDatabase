@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Helix Fossil",
+        "type": "Colorless",
+        "hp": 40,
+        "weakness": null,
+        "attacks": [],
+        "retreat_cost": null,
+        "stage": "Fossil",
+        "evolves_to": ["Omanyte"],
+        "effect": {
+            "description": "Play this card as if it were a 40-HP Basic Pokémon. At any time during your turn, you may discard this card from play. This card can’t retreat."
+        }
+    },
+    {
+        "name": "Dome Fossil",
+        "type": "Colorless",
+        "hp": 40,
+        "weakness": null,
+        "attacks": [],
+        "retreat_cost": null,
+        "stage": "Fossil",
+        "evolves_to": ["Kabuto"],
+        "effect": {
+            "description": "Play this card as if it were a 40-HP Basic Pokémon. At any time during your turn, you may discard this card from play. This card can’t retreat."
+        }
+    },
+    {
+        "name": "Old Amber",
+        "type": "Colorless",
+        "hp": 40,
+        "weakness": null,
+        "attacks": [],
+        "retreat_cost": null,
+        "stage": "Fossil",
+        "evolves_to": ["Aerodactyl"],
+        "effect": {
+            "description": "Play this card as if it were a 40-HP Basic Pokémon. At any time during your turn, you may discard this card from play. This card can’t retreat."
+        }
+    }
+]
+

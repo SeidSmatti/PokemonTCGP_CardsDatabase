@@ -1,0 +1,4559 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": "Grass",
+    "hp": 70,
+    "weakness": "Fire",
+    "attacks": [
+      {
+        "name": "Vine Whip",
+        "cost": {
+          "colorless": 1,
+          "grass": 1
+        },
+        "damage": 40,
+        "effect": null
+      }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+  },
+  {
+    "name": "Ivysaur",
+    "type": "Grass",
+    "hp": 90,
+    "weakness": "Fire",
+    "attacks": [
+      {
+        "name": "Razor Leaf",
+        "cost": {
+          "colorless": 2,
+          "grass": 1
+        },
+        "damage": 60,
+        "effect": null
+      }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+  },
+  {
+    "name": "Venusaur",
+    "type": "Grass",
+    "hp": 160,
+    "weakness": "Fire",
+    "attacks": [
+      {
+        "name": "Mega Drain",
+        "cost": {
+          "grass": 3,
+          "colorless": 1
+        },
+        "damage": 80,
+        "effect": {
+          "action": "heal",
+          "target": "self",
+          "amount": 30
+        }
+      }
+    ],
+    "retreat_cost": 4,
+    "stage": "Stage 2",
+    "effect": null
+  },
+  {
+    "name": "Venusaur EX",
+    "type": "Grass",
+    "hp": 190,
+    "weakness": "Fire",
+    "attacks": [
+      {
+        "name": "Razor Leaf",
+        "cost": {
+          "colorless": 2,
+          "grass": 1
+        },
+        "damage": 60,
+        "effect": null
+      },
+      {
+        "name": "Giant Bloom",
+        "cost": {
+          "colorless": 2,
+          "grass": 2
+        },
+        "damage": 100,
+        "effect": {
+          "action": "heal",
+          "target": "self",
+          "amount": 30
+        }
+      }
+    ],
+    "retreat_cost": 4,
+    "stage": "EX",
+    "effect": null
+  },
+  {
+    "name": "Caterpie",
+    "type": "Grass",
+    "hp": 50,
+    "weakness": "Fire",
+    "attacks": [
+      {
+        "name": "Find a Friend",
+        "cost": {
+          "colorless": 1
+        },
+        "damage": null,
+        "effect": {
+          "action": "search_deck",
+          "target": "grass_pokemon",
+          "amount": 1
+        }
+      }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+  },
+  {
+    "name": "Butterfree",
+    "type": "Grass",
+    "hp": 120,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Gust",
+            "cost": {
+                "colorless": 2,
+                "grass": 1
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 2",
+    "effect": {
+        "action": "heal",
+        "target": "all_your_pokemon",
+        "amount": 20,
+        "condition": "once_per_turn"
+    }
+},
+{
+    "name": "Weedle",
+    "type": "Grass",
+    "hp": 50,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Sting",
+            "cost": {
+                "grass": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Kakuna",
+    "type": "Grass",
+    "hp": 80,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Bug Bite",
+            "cost": {
+                "grass": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Beedrill",
+    "type": "Grass",
+    "hp": 120,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Sharp Sting",
+            "cost": {
+                "grass": 2,
+                "colorless": 1
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 0,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Oddish",
+    "type": "Grass",
+    "hp": 60,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Ram",
+            "cost": {
+                "grass": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Gloom",
+    "type": "Grass",
+    "hp": 80,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Drool",
+            "cost": {
+                "colorless": 1,
+                "grass": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Vileplume",
+    "type": "Grass",
+    "hp": 140,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Soothing Scent",
+            "cost": {
+                "colorless": 1,
+                "grass": 2
+            },
+            "damage": 80,
+            "effect": {
+                "action": "apply_status",
+                "status": "asleep",
+                "target": "opponent_active"
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Paras",
+    "type": "Grass",
+    "hp": 70,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Scratch",
+            "cost": {
+                "grass": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Parasect",
+    "type": "Grass",
+    "hp": 120,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Slash",
+            "cost": {
+                "colorless": 1,
+                "grass": 2
+            },
+            "damage": 80,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Venonat",
+    "type": "Grass",
+    "hp": 60,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": {
+                "grass": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Venomoth",
+    "type": "Grass",
+    "hp": 80,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Poison Powder",
+            "cost": {
+                "grass": 1,
+                "colorless": 1
+            },
+            "damage": 30,
+            "effect": {
+                "action": "apply_status",
+                "status": "poisoned",
+                "target": "opponent_active"
+            }
+        }
+    ],
+    "retreat_cost": 0,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Bellsprout",
+    "type": "Grass",
+    "hp": 60,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Vine Whip",
+            "cost": {
+                "grass": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Weepinbell",
+    "type": "Grass",
+    "hp": 90,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Razor Leaf",
+            "cost": {
+                "colorless": 1,
+                "grass": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Victreebel",
+    "type": "Grass",
+    "hp": 140,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Vine Whip",
+            "cost": {
+                "grass": 2,
+                "colorless": 1
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": {
+        "action": "switch_opponent_active",
+        "condition": "once_per_turn",
+        "description": "Switch 1 of your opponent's Benched Basic Pokémon to the Active Spot."
+    }
+},
+{
+    "name": "Exeggcute",
+    "type": "Grass",
+    "hp": 50,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Seed Bomb",
+            "cost": {
+                "grass": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Exeggutor",
+    "type": "Grass",
+    "hp": 130,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Stomp",
+            "cost": {
+                "grass": 1,
+                "colorless": 2
+            },
+            "damage": 30,
+            "effect": {
+                "action": "coin_flip",
+                "bonus_damage": 30,
+                "condition": "heads"
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Exeggutor EX",
+    "type": "Grass",
+    "hp": 160,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Tropical Swing",
+            "cost": {
+                "grass": 2,
+                "colorless": 1
+            },
+            "damage": 40,
+            "effect": {
+                "action": "coin_flip",
+                "bonus_damage": 40,
+                "condition": "heads"
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Tangela",
+    "type": "Grass",
+    "hp": 80,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Absorb",
+            "cost": {
+                "grass": 2
+            },
+            "damage": 40,
+            "effect": {
+                "action": "heal",
+                "target": "self",
+                "amount": 10
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Scyther",
+    "type": "Grass",
+    "hp": 70,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Sharp Scythe",
+            "cost": {
+                "colorless": 1,
+                "grass": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Pinsir",
+    "type": "Grass",
+    "hp": 90,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Double Horn",
+            "cost": {
+                "grass": 2,
+                "colorless": 1
+            },
+            "damage": 50,
+            "effect": {
+                "action": "coin_flip",
+                "multiplier": 2,
+                "condition": "each_heads"
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Cottonee",
+    "type": "Grass",
+    "hp": 50,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Attach",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Whimsicott",
+    "type": "Grass",
+    "hp": 80,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Rolling Tackle",
+            "cost": {
+                "grass": 1,
+                "colorless": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 0,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Petilil",
+    "type": "Grass",
+    "hp": 60,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Blot",
+            "cost": {
+                "grass": 1
+            },
+            "damage": 10,
+            "effect": {
+                "action": "heal",
+                "target": "self",
+                "amount": 10
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Lilligant",
+    "type": "Grass",
+    "hp": 100,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Leaf Supply",
+            "cost": {
+                "grass": 1,
+                "colorless": 1
+            },
+            "damage": 50,
+            "effect": {
+                "action": "move_energy",
+                "source": "energy_zone",
+                "target": "benched_pokemon",
+                "amount": 1
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Skiddo",
+    "type": "Grass",
+    "hp": 70,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Surprise Attack",
+            "cost": {
+                "colorless": 1,
+                "grass": 1
+            },
+            "damage": 40,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "tails",
+                "description": "If tails, this attack does nothing."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Gogoat",
+    "type": "Grass",
+    "hp": 120,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Razor Leaf",
+            "cost": {
+                "grass": 2,
+                "colorless": 1
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Charmander",
+    "type": "Fire",
+    "hp": 60,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Ember",
+            "cost": {
+                "fire": 1
+            },
+            "damage": 30,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 1,
+                "description": "Discard a Fire Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Charmeleon",
+    "type": "Fire",
+    "hp": 90,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Fire Claws",
+            "cost": {
+                "fire": 2,
+                "colorless": 1
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Charizard",
+    "type": "Fire",
+    "hp": 150,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Fire Spin",
+            "cost": {
+                "fire": 4
+            },
+            "damage": 150,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 2,
+                "description": "Discard 2 Fire Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Charizard EX",
+    "type": "Fire",
+    "hp": 180,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Slash",
+            "cost": {
+                "colorless": 3
+            },
+            "damage": 60,
+            "effect": null
+        },
+        {
+            "name": "Crimson Storm",
+            "cost": {
+                "fire": 3,
+                "colorless": 2
+            },
+            "damage": 200,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 2,
+                "description": "Discard 2 Fire Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Vulpix",
+    "type": "Fire",
+    "hp": 50,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Tail Whip",
+            "cost": {
+                "fire": 1
+            },
+            "damage": null,
+            "effect": {
+                "action": "apply_status",
+                "status": "cannot_attack",
+                "target": "opponent_active",
+                "condition": "heads",
+                "description": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Ninetales",
+    "type": "Fire",
+    "hp": 90,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Flamethrower",
+            "cost": {
+                "fire": 2
+            },
+            "damage": 90,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 1,
+                "description": "Discard a Fire Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Growlithe",
+    "type": "Fire",
+    "hp": 70,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Arcanine",
+    "type": "Fire",
+    "hp": 130,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Heat Tackle",
+            "cost": {
+                "fire": 2,
+                "colorless": 2
+            },
+            "damage": 100,
+            "effect": {
+                "action": "self_damage",
+                "amount": 20,
+                "description": "This Pokémon also does 20 damage to itself."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Arcanine EX",
+    "type": "Fire",
+    "hp": 150,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Inferno Onrush",
+            "cost": {
+                "fire": 3,
+                "colorless": 1
+            },
+            "damage": 120,
+            "effect": {
+                "action": "self_damage",
+                "amount": 20,
+                "description": "This Pokémon also does 20 damage to itself."
+            }
+        }
+    ],
+    "retreat_cost": 4,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Ponyta",
+    "type": "Fire",
+    "hp": 60,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Flare",
+            "cost": {
+                "fire": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Rapidash",
+    "type": "Fire",
+    "hp": 100,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Fire Mane",
+            "cost": {
+                "fire": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Magmar",
+    "type": "Fire",
+    "hp": 80,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Magma Punch",
+            "cost": {
+                "fire": 2
+            },
+            "damage": 50,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Flareon",
+    "type": "Fire",
+    "hp": 120,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Flamethrower",
+            "cost": {
+                "fire": 2,
+                "colorless": 1
+            },
+            "damage": 90,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 1,
+                "description": "Discard a Fire Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Moltres",
+    "type": "Fire",
+    "hp": 100,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Sky Attack",
+            "cost": {
+                "fire": 3
+            },
+            "damage": 100,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "tails",
+                "description": "If tails, this attack does nothing."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Moltres EX",
+    "type": "Fire",
+    "hp": 140,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Inferno Dance",
+            "cost": {
+                "fire": 2
+            },
+            "damage": null,
+            "effect": {
+                "action": "attach_energy",
+                "source": "discard_pile",
+                "target": "self",
+                "amount": "coin_flip_total",
+                "description": "Flip 2 coins. Attach Fire Energy equal to the heads count from your discard pile."
+            }
+        },
+        {
+            "name": "Heat Blast",
+            "cost": {
+                "fire": 3
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Heatmor",
+    "type": "Fire",
+    "hp": 80,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Combustion",
+            "cost": {
+                "fire": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Salandit",
+    "type": "Fire",
+    "hp": 60,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Scratch",
+            "cost": {
+                "fire": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Salazzle",
+    "type": "Fire",
+    "hp": 90,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Fire Claws",
+            "cost": {
+                "fire": 2,
+                "colorless": 1
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Sizzlipede",
+    "type": "Fire",
+    "hp": 60,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Gnaw",
+            "cost": {
+                "fire": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Centiskorch",
+    "type": "Fire",
+    "hp": 130,
+    "weakness": "Water",
+    "attacks": [
+        {
+            "name": "Fire Blast",
+            "cost": {
+                "fire": 3,
+                "colorless": 1
+            },
+            "damage": 130,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 1,
+                "description": "Discard a Fire Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Squirtle",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Water Gun",
+            "cost": {
+                "water": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Wartortle",
+    "type": "Water",
+    "hp": 80,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Wave Splash",
+            "cost": {
+                "water": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Blastoise",
+    "type": "Water",
+    "hp": 150,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Hydro Pump",
+            "cost": {
+                "water": 3
+            },
+            "damage": 80,
+            "effect": {
+                "action": "bonus_damage_per_energy",
+                "amount": 10,
+                "description": "This attack does 10 more damage for each Water Energy attached to this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Blastoise EX",
+    "type": "Water",
+    "hp": 180,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Surf",
+            "cost": {
+                "water": 2
+            },
+            "damage": 40,
+            "effect": null
+        },
+        {
+            "name": "Hydro Bazooka",
+            "cost": {
+                "water": 3,
+                "colorless": 1
+            },
+            "damage": 100,
+            "effect": {
+                "action": "bonus_damage",
+                "amount": 60,
+                "description": "If this Pokémon has at least 2 extra Water Energy, this attack does 60 more damage."
+            }
+        }
+    ],
+    "retreat_cost": 4,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Psyduck",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Headache",
+            "cost": {
+                "water": 1
+            },
+            "damage": 10,
+            "effect": {
+                "action": "prevent_supporters",
+                "target": "opponent",
+                "description": "Your opponent can't use any Supporter cards during their next turn."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Golduck",
+    "type": "Water",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Aqua Edge",
+            "cost": {
+                "water": 2,
+                "colorless": 1
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Poliwag",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Razor Fin",
+            "cost": {
+                "water": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Poliwhirl",
+    "type": "Water",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Knuckle Punch",
+            "cost": {
+                "water": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Poliwrath",
+    "type": "Water",
+    "hp": 150,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Mega Punch",
+            "cost": {
+                "water": 3
+            },
+            "damage": 80,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": {
+        "action": "counter_damage",
+        "amount": 20,
+        "condition": "if_damaged_by_attack",
+        "description": "If this Pokémon is damaged by an attack from an opponent's Pokémon, deal 20 damage to the Attacking Pokémon."
+    }
+},
+{
+    "name": "Tentacool",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Gentle Slap",
+            "cost": {
+                "water": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Tentacruel",
+    "type": "Water",
+    "hp": 110,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Poison Tentacles",
+            "cost": {
+                "water": 2
+            },
+            "damage": 50,
+            "effect": {
+                "action": "apply_status",
+                "status": "poisoned",
+                "target": "opponent_active"
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Seel",
+    "type": "Water",
+    "hp": 80,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Headbutt",
+            "cost": {
+                "water": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Dewgong",
+    "type": "Water",
+    "hp": 120,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Surf",
+            "cost": {
+                "water": 3
+            },
+            "damage": 90,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Shellder",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Tongue Slap",
+            "cost": {
+                "water": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Cloyster",
+    "type": "Water",
+    "hp": 120,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Surf",
+            "cost": {
+                "water": 2
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": {
+        "action": "reduce_damage",
+        "amount": 10,
+        "description": "This Pokémon takes 10 less damage from attacks."
+    }
+},
+{
+    "name": "Krabby",
+    "type": "Water",
+    "hp": 70,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Vise Grip",
+            "cost": {
+                "water": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Kingler",
+    "type": "Water",
+    "hp": 120,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "KO Crab",
+            "cost": {
+                "water": 3
+            },
+            "damage": 80,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "heads",
+                "bonus_damage": 80,
+                "description": "Flip 2 coins. This attack does 80 more damage for each heads."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Horsea",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Water Gun",
+            "cost": {
+                "water": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Seadra",
+    "type": "Water",
+    "hp": 70,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Water Arrow",
+            "cost": {
+                "water": 3
+            },
+            "damage": 50,
+            "effect": {
+                "action": "target_any",
+                "description": "This attack does 50 damage to 1 of your opponent's Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Goldeen",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Flop",
+            "cost": {
+                "water": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Seaking",
+    "type": "Water",
+    "hp": 100,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Horn Hazard",
+            "cost": {
+                "water": 2
+            },
+            "damage": 0,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "tails",
+                "description": "If tails, this attack does nothing."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Staryu",
+    "type": "Water",
+    "hp": 50,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Smack",
+            "cost": {
+                "water": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Starmie",
+    "type": "Water",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Wave Splash",
+            "cost": {
+                "water": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 0,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Starmie EX",
+    "type": "Water",
+    "hp": 130,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Hydro Splash",
+            "cost": {
+                "water": 3
+            },
+            "damage": 90,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Magikarp",
+    "type": "Water",
+    "hp": 30,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Splash",
+            "cost": {
+                "water": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Gyarados",
+    "type": "Water",
+    "hp": 150,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Hyper Beam",
+            "cost": {
+                "water": 4
+            },
+            "damage": 100,
+            "effect": {
+                "action": "discard_energy",
+                "target": "opponent_active",
+                "description": "Discard an Energy from your opponent's Active Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Lapras",
+    "type": "Water",
+    "hp": 100,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Hydro Pump",
+            "cost": {
+                "water": 2
+            },
+            "damage": 20,
+            "effect": {
+                "action": "bonus_damage_per_energy",
+                "amount": 10,
+                "description": "This attack does 10 more damage for each Water Energy attached to this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Vaporeon",
+    "type": "Water",
+    "hp": 130,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Bubble Drain",
+            "cost": {
+                "water": 2,
+                "colorless": 1
+            },
+            "damage": 60,
+            "effect": {
+                "action": "heal",
+                "amount": 30,
+                "description": "Heal 30 damage from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Omanyte",
+    "type": "Water",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Water Gun",
+            "cost": {
+                "water": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Omastar",
+    "type": "Water",
+    "hp": 140,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Ancient Whirlpool",
+            "cost": {
+                "water": 3
+            },
+            "damage": 70,
+            "effect": {
+                "action": "apply_status",
+                "status": "cannot_attack",
+                "target": "opponent_active",
+                "description": "During your opponent's next turn, the Defending Pokémon can't attack."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Articuno",
+    "type": "Water",
+    "hp": 100,
+    "weakness": "Metal",
+    "attacks": [
+        {
+            "name": "Ice Beam",
+            "cost": {
+                "water": 3
+            },
+            "damage": 60,
+            "effect": {
+                "action": "apply_status",
+                "status": "paralyzed",
+                "target": "opponent_active",
+                "condition": "coin_flip_heads",
+                "description": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Articuno EX",
+    "type": "Water",
+    "hp": 140,
+    "weakness": "Metal",
+    "attacks": [
+        {
+            "name": "Ice Wing",
+            "cost": {
+                "water": 2
+            },
+            "damage": 40,
+            "effect": null
+        },
+        {
+            "name": "Blizzard",
+            "cost": {
+                "water": 3,
+                "colorless": 1
+            },
+            "damage": 80,
+            "effect": {
+                "action": "damage_benched",
+                "target": "all_opponent_benched",
+                "amount": 10,
+                "description": "This attack does 10 damage to each of your opponent's Benched Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Ducklett",
+    "type": "Water",
+    "hp": 50,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Flap",
+            "cost": {
+                "water": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Swanna",
+    "type": "Water",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Wing Attack",
+            "cost": {
+                "water": 2,
+                "colorless": 1
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Froakie",
+    "type": "Water",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Flop",
+            "cost": {
+                "water": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Frogadier",
+    "type": "Water",
+    "hp": 80,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Water Drip",
+            "cost": {
+                "water": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Greninja",
+    "type": "Water",
+    "hp": 120,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Mist Slash",
+            "cost": {
+                "water": 3
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 2",
+    "effect": {
+        "action": "deal_damage",
+        "amount": 20,
+        "description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon."
+    }
+},
+{
+    "name": "Pyukumuku",
+    "type": "Water",
+    "hp": 70,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Rain Splash",
+            "cost": {
+                "water": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Bruxish",
+    "type": "Water",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Second Strike",
+            "cost": {
+                "water": 1
+            },
+            "damage": 10,
+            "effect": {
+                "action": "bonus_damage",
+                "amount": 60,
+                "condition": "if_opponent_damaged",
+                "description": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Snom",
+    "type": "Water",
+    "hp": 50,
+    "weakness": "Metal",
+    "attacks": [
+        {
+            "name": "Ram",
+            "cost": {
+                "water": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Frosmoth",
+    "type": "Water",
+    "hp": 90,
+    "weakness": "Metal",
+    "attacks": [
+        {
+            "name": "Powder Snow",
+            "cost": {
+                "water": 2
+            },
+            "damage": 30,
+            "effect": {
+                "action": "apply_status",
+                "status": "asleep",
+                "target": "opponent_active",
+                "description": "Your opponent's Active Pokémon is now Asleep."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Pikachu",
+    "type": "Electric",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Gnaw",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Raichu",
+    "type": "Electric",
+    "hp": 100,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Thunderbolt",
+            "cost": {
+                "electric": 3
+            },
+            "damage": 140,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 1,
+                "description": "Discard all Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Pikachu EX",
+    "type": "Electric",
+    "hp": 120,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Circle Circuit",
+            "cost": {
+                "electric": 2
+            },
+            "damage": 20,
+            "effect": {
+                "action": "bonus_damage_per_benched",
+                "amount": 20,
+                "description": "This attack does 20 more damage for each of your Benched Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Magnemite",
+    "type": "Electric",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Lightning Ball",
+            "cost": {
+                "electric": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Magneton",
+    "type": "Electric",
+    "hp": 80,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Spinning Attack",
+            "cost": {
+                "electric": 1,
+                "colorless": 2
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": {
+        "action": "attach_energy",
+        "target": "self",
+        "description": "Once during your turn, you may attach 2 Energy from your discard pile to this Pokémon."
+    }
+},
+{
+    "name": "Voltorb",
+    "type": "Electric",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Electrode",
+    "type": "Electric",
+    "hp": 80,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Electro Ball",
+            "cost": {
+                "electric": 2
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Electabuzz",
+    "type": "Electric",
+    "hp": 70,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Thunder Punch",
+            "cost": {
+                "electric": 1,
+                "colorless": 1
+            },
+            "damage": 40,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "heads",
+                "bonus_damage": 40,
+                "self_damage_on_tails": 10,
+                "description": "Flip a coin. If heads, this attack does 40 more damage. If tails, this Pokémon also does 10 damage to itself."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Jolteon",
+    "type": "Electric",
+    "hp": 90,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Pin Missile",
+            "cost": {
+                "electric": 1,
+                "colorless": 1
+            },
+            "damage": 40,
+            "effect": {
+                "action": "coin_flip_multiple",
+                "count": 4,
+                "bonus_damage_per_heads": 40,
+                "description": "Flip 4 coins. This attack does 40 damage for each heads."
+            }
+        }
+    ],
+    "retreat_cost": 0,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Zapdos",
+    "type": "Electric",
+    "hp": 100,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Raging Thunder",
+            "cost": {
+                "electric": 3
+            },
+            "damage": 120,
+            "effect": {
+                "action": "damage_benched",
+                "target": "self_benched",
+                "amount": 30,
+                "description": "This attack does 30 damage to 1 of your Benched Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Zapdos EX",
+    "type": "Electric",
+    "hp": 130,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Peck",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        },
+        {
+            "name": "Thundering Hurricane",
+            "cost": {
+                "electric": 2,
+                "colorless": 2
+            },
+            "damage": 50,
+            "effect": {
+                "action": "coin_flip_multiple",
+                "count": 4,
+                "bonus_damage_per_heads": 50,
+                "description": "Flip 4 coins. This attack does 50 damage for each heads."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Blitzle",
+    "type": "Electric",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Zap Kick",
+            "cost": {
+                "electric": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Zebstrika",
+    "type": "Electric",
+    "hp": 90,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Thunder Spear",
+            "cost": {
+                "electric": 1
+            },
+            "damage": null,
+            "effect": {
+                "action": "deal_damage",
+                "amount": 30,
+                "target": "opponent_pokemon",
+                "description": "This attack does 30 damage to 1 of your opponent's Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Tynamo",
+    "type": "Electric",
+    "hp": 30,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Tiny Charge",
+            "cost": {
+                "electric": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Eelektrik",
+    "type": "Electric",
+    "hp": 80,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Head Bolt",
+            "cost": {
+                "electric": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Eelektross",
+    "type": "Electric",
+    "hp": 140,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Thunder Fang",
+            "cost": {
+                "electric": 2
+            },
+            "damage": 80,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "heads",
+                "status": "paralyzed",
+                "description": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Helioptile",
+    "type": "Electric",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Tail Whap",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Heliolisk",
+    "type": "Electric",
+    "hp": 90,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Quick Attack",
+            "cost": {
+                "electric": 1
+            },
+            "damage": 40,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "heads",
+                "bonus_damage": 40,
+                "description": "Flip a coin. If heads, this attack does 40 more damage."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Pincurchin",
+    "type": "Electric",
+    "hp": 70,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Thunder Shock",
+            "cost": {
+                "electric": 1
+            },
+            "damage": 30,
+            "effect": {
+                "action": "coin_flip",
+                "condition": "heads",
+                "status": "paralyzed",
+                "description": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Clefairy",
+    "type": "Psychic",
+    "hp": 60,
+    "weakness": "Metal",
+    "attacks": [
+        {
+            "name": "Slap",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Clefable",
+    "type": "Psychic",
+    "hp": 100,
+    "weakness": "Metal",
+    "attacks": [
+        {
+            "name": "Magical Shot",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Abra",
+    "type": "Psychic",
+    "hp": 60,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Teleport",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": null,
+            "effect": {
+                "action": "switch",
+                "target": "benched_pokemon",
+                "description": "Switch this Pokémon with 1 of your Benched Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Kadabra",
+    "type": "Psychic",
+    "hp": 80,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Super Psy Bolt",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Alakazam",
+    "type": "Psychic",
+    "hp": 130,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Psychic",
+            "cost": {
+                "psychic": 2,
+                "colorless": 1
+            },
+            "damage": 60,
+            "effect": {
+                "action": "bonus_damage_per_energy",
+                "amount": 20,
+                "description": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Slowpoke",
+    "type": "Psychic",
+    "hp": 70,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Tail Whap",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Slowbro",
+    "type": "Psychic",
+    "hp": 130,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Super Psy Bolt",
+            "cost": {
+                "psychic": 3
+            },
+            "damage": 80,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Gastly",
+    "type": "Psychic",
+    "hp": 60,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Suffocating Gas",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Haunter",
+    "type": "Psychic",
+    "hp": 80,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Will-O-Wisp",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Gengar",
+    "type": "Psychic",
+    "hp": 130,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Bother",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 50,
+            "effect": {
+                "action": "prevent_supporters",
+                "target": "opponent",
+                "description": "Your opponent can't play any Supporter cards from their hand during their next turn."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Gengar EX",
+    "type": "Psychic",
+    "hp": 170,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Spooky Shot",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 100,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "EX",
+    "effect": {
+        "action": "disable_supporters",
+        "description": "As long as this Pokémon is in the Active Spot, your opponent can't play any Supporter cards from their hand."
+    }
+},
+{
+    "name": "Drowzee",
+    "type": "Psychic",
+    "hp": 70,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Mumble",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Hypno",
+    "type": "Psychic",
+    "hp": 100,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Psy Punch",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 50,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": {
+        "action": "coin_flip",
+        "condition": "heads",
+        "status": "asleep",
+        "description": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep."
+    }
+},
+{
+    "name": "Mr. Mime",
+    "type": "Psychic",
+    "hp": 80,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Barrier Attack",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 30,
+            "effect": {
+                "action": "reduce_damage",
+                "amount": 30,
+                "description": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Jynx",
+    "type": "Psychic",
+    "hp": 80,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Psychic",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 30,
+            "effect": {
+                "action": "bonus_damage_per_energy",
+                "amount": 20,
+                "description": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Mewtwo",
+    "type": "Psychic",
+    "hp": 120,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Power Blast",
+            "cost": {
+                "psychic": 3
+            },
+            "damage": 120,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 2,
+                "description": "Discard 2 Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Mewtwo EX",
+    "type": "Psychic",
+    "hp": 150,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Psychic Sphere",
+            "cost": {
+                "psychic": 2,
+                "colorless": 1
+            },
+            "damage": 60,
+            "effect": null
+        },
+        {
+            "name": "Psystrike",
+            "cost": {
+                "psychic": 3,
+                "colorless": 1
+            },
+            "damage": 150,
+            "effect": {
+                "action": "discard_energy",
+                "amount": 2,
+                "description": "Discard 2 Energy from this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Ralts",
+    "type": "Psychic",
+    "hp": 60,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Ram",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Kirlia",
+    "type": "Psychic",
+    "hp": 80,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Smack",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Gardevoir",
+    "type": "Psychic",
+    "hp": 110,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Psyshot",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 2",
+    "effect": {
+        "action": "move_energy",
+        "description": "Once during your turn, you may take 1 Energy from your discard pile and attach it to 1 of your Pokémon."
+    }
+},
+{
+    "name": "Woobat",
+    "type": "Psychic",
+    "hp": 60,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Gnaw",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Swoobat",
+    "type": "Psychic",
+    "hp": 90,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Heart Stamp",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Golett",
+    "type": "Psychic",
+    "hp": 90,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Mega Punch",
+            "cost": {
+                "psychic": 2
+            },
+            "damage": 50,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Golurk",
+    "type": "Psychic",
+    "hp": 140,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Double Lariat",
+            "cost": {
+                "psychic": 3,
+                "colorless": 1
+            },
+            "damage": 100,
+            "effect": {
+                "action": "coin_flip_multiple",
+                "count": 2,
+                "bonus_damage_per_heads": 100,
+                "description": "Flip 2 coins. This attack does 100 damage for each heads."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Sandshrew",
+    "type": "Fighting",
+    "hp": 70,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Scratch",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Sandslash",
+    "type": "Fighting",
+    "hp": 100,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Slash",
+            "cost": {
+                "fighting": 2,
+                "colorless": 1
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Diglett",
+    "type": "Fighting",
+    "hp": 50,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Mud-Slap",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Dugtrio",
+    "type": "Fighting",
+    "hp": 70,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Dig",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 40,
+            "effect": {
+                "action": "prevent_damage",
+                "condition": "next_turn",
+                "description": "Flip a coin. If heads, prevent all damage done to this Pokémon during your opponent's next turn."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Mankey",
+    "type": "Fighting",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Low Kick",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Primeape",
+    "type": "Fighting",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Fight Back",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 40,
+            "effect": {
+                "action": "bonus_damage_if_damaged",
+                "amount": 40,
+                "description": "If this Pokémon has any damage counters on it, this attack does 40 more damage."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Machop",
+    "type": "Fighting",
+    "hp": 70,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Knuckle Punch",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Machoke",
+    "type": "Fighting",
+    "hp": 100,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Strength",
+            "cost": {
+                "fighting": 2
+            },
+            "damage": 50,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Machamp",
+    "type": "Fighting",
+    "hp": 150,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Seismic Toss",
+            "cost": {
+                "fighting": 3
+            },
+            "damage": 120,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Machamp EX",
+    "type": "Fighting",
+    "hp": 180,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Mega Punch",
+            "cost": {
+                "fighting": 3,
+                "colorless": 1
+            },
+            "damage": 120,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Geodude",
+    "type": "Fighting",
+    "hp": 70,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Graveler",
+    "type": "Fighting",
+    "hp": 100,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Rollout",
+            "cost": {
+                "fighting": 2
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Golem",
+    "type": "Fighting",
+    "hp": 160,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Double-Edge",
+            "cost": {
+                "fighting": 3,
+                "colorless": 1
+            },
+            "damage": 120,
+            "effect": {
+                "action": "self_damage",
+                "amount": 50,
+                "description": "This Pokémon also does 50 damage to itself."
+            }
+        }
+    ],
+    "retreat_cost": 4,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Onix",
+    "type": "Fighting",
+    "hp": 110,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Land Crush",
+            "cost": {
+                "fighting": 3
+            },
+            "damage": 80,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 4,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Cubone",
+    "type": "Fighting",
+    "hp": 60,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Growl",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": null,
+            "effect": {
+                "action": "reduce_damage",
+                "amount": 20,
+                "description": "During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Marowak",
+    "type": "Fighting",
+    "hp": 100,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Bone Beatdown",
+            "cost": {
+                "fighting": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Marowak EX",
+    "type": "Fighting",
+    "hp": 140,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Boomerang",
+            "cost": {
+                "fighting": 3
+            },
+            "damage": 80,
+            "effect": {
+                "action": "coin_flip_multiple",
+                "count": 2,
+                "bonus_damage_per_heads": 80,
+                "description": "Flip 2 coins. This attack does 80 damage for each heads."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Hitmonlee",
+    "type": "Fighting",
+    "hp": 80,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Stretch Kick",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": null,
+            "effect": {
+                "action": "target_benched",
+                "amount": 20,
+                "description": "This attack does 20 damage to 1 of your opponent's Benched Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Hitmonchan",
+    "type": "Fighting",
+    "hp": 80,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Jab",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Rhyhorn",
+    "type": "Fighting",
+    "hp": 80,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": {
+                "fighting": 2
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Rhydon",
+    "type": "Fighting",
+    "hp": 120,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Horn Drill",
+            "cost": {
+                "fighting": 3
+            },
+            "damage": 100,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Kabuto",
+    "type": "Fighting",
+    "hp": 90,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Shell Attack",
+            "cost": {
+                "fighting": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Kabutops",
+    "type": "Fighting",
+    "hp": 140,
+    "weakness": "Grass",
+    "attacks": [
+        {
+            "name": "Leech Life",
+            "cost": {
+                "fighting": 3
+            },
+            "damage": 50,
+            "effect": {
+                "action": "heal",
+                "target": "self",
+                "amount": "equal_to_damage",
+                "description": "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Mienfoo",
+    "type": "Fighting",
+    "hp": 60,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Pound",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Mienshao",
+    "type": "Fighting",
+    "hp": 80,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Spiral Kick",
+            "cost": {
+                "fighting": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Clobbopus",
+    "type": "Fighting",
+    "hp": 80,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Knuckle Punch",
+            "cost": {
+                "fighting": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Grapploct",
+    "type": "Fighting",
+    "hp": 130,
+    "weakness": "Psychic",
+    "attacks": [
+        {
+            "name": "Knock Back",
+            "cost": {
+                "fighting": 3
+            },
+            "damage": 70,
+            "effect": {
+                "action": "switch_opponent_active",
+                "description": "Switch your opponent's Active Pokémon with 1 of their Benched Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Ekans",
+    "type": "Dark",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Arbok",
+    "type": "Dark",
+    "hp": 100,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Corner",
+            "cost": {
+                "dark": 2
+            },
+            "damage": 60,
+            "effect": {
+                "action": "prevent_retreat",
+                "description": "During your opponent's next turn, the Defending Pokémon can't retreat."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Nidoran♀",
+    "type": "Dark",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Call for Family",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": null,
+            "effect": {
+                "action": "search_deck",
+                "target": "Nidoran",
+                "description": "Search your deck for up to 2 Nidoran cards and put them onto your Bench."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Nidorina",
+    "type": "Dark",
+    "hp": 80,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": {
+                "dark": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Nidoqueen",
+    "type": "Dark",
+    "hp": 140,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Lovestrike",
+            "cost": {
+                "dark": 3,
+                "colorless": 1
+            },
+            "damage": 80,
+            "effect": {
+                "action": "bonus_damage_per_nido",
+                "amount": 50,
+                "description": "This attack does 50 more damage for each Nidoran, Nidorina, and Nidoqueen on your Bench."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Nidoran♂",
+    "type": "Dark",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Peck",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Nidorino",
+    "type": "Dark",
+    "hp": 90,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Horn Attack",
+            "cost": {
+                "dark": 1,
+                "colorless": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Nidoking",
+    "type": "Dark",
+    "hp": 150,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Poison Horn",
+            "cost": {
+                "dark": 2,
+                "colorless": 1
+            },
+            "damage": 90,
+            "effect": {
+                "action": "apply_status",
+                "status": "poisoned",
+                "target": "opponent_active",
+                "description": "Your opponent's Active Pokémon is now Poisoned."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Zubat",
+    "type": "Dark",
+    "hp": 50,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Glide",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Golbat",
+    "type": "Dark",
+    "hp": 70,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Wing Attack",
+            "cost": {
+                "dark": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Grimer",
+    "type": "Dark",
+    "hp": 70,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Poison Gas",
+            "cost": {
+                "dark": 1
+            },
+            "damage": 10,
+            "effect": {
+                "action": "apply_status",
+                "status": "poisoned",
+                "target": "opponent_active",
+                "description": "Your opponent's Active Pokémon is now Poisoned."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Muk",
+    "type": "Dark",
+    "hp": 130,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Venoshock",
+            "cost": {
+                "dark": 2,
+                "colorless": 1
+            },
+            "damage": 70,
+            "effect": {
+                "action": "bonus_damage_if_status",
+                "status": "poisoned",
+                "amount": 70,
+                "description": "If your opponent's Active Pokémon is Poisoned, this attack does 70 more damage."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Koffing",
+    "type": "Dark",
+    "hp": 70,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Suffocating Gas",
+            "cost": {
+                "dark": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Weezing",
+    "type": "Dark",
+    "hp": 110,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 1",
+    "effect": {
+        "action": "spread_poison",
+        "description": "Once during your turn, if this Pokémon is in the Active Spot, you may make all of your opponent's Benched Pokémon Poisoned."
+    }
+},
+{
+    "name": "Mawile",
+    "type": "Steel",
+    "hp": 70,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Crunch",
+            "cost": {
+                "steel": 1,
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": {
+                "action": "discard_energy",
+                "target": "opponent_active",
+                "description": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Pawniard",
+    "type": "Steel",
+    "hp": 50,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Pierce",
+            "cost": {
+                "steel": 1
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Bisharp",
+    "type": "Steel",
+    "hp": 90,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Metal Claw",
+            "cost": {
+                "steel": 2
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Meltan",
+    "type": "Steel",
+    "hp": 60,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Amass",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": null,
+            "effect": {
+                "action": "attach_energy",
+                "source": "energy_zone",
+                "description": "Take a Steel Energy from your Energy Zone and attach it to this Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Melmetal",
+    "type": "Steel",
+    "hp": 130,
+    "weakness": "Fire",
+    "attacks": [
+        {
+            "name": "Heavy Impact",
+            "cost": {
+                "steel": 3
+            },
+            "damage": 120,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 4,
+    "stage": "Stage 1",
+    "effect": {
+        "action": "reduce_damage",
+        "amount": 30,
+        "description": "This Pokémon takes 30 less damage from attacks."
+    }
+},
+{
+    "name": "Dratini",
+    "type": "Dragon",
+    "hp": 70,
+    "weakness": "Fairy",
+    "attacks": [
+        {
+            "name": "Ram",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Dragonair",
+    "type": "Dragon",
+    "hp": 100,
+    "weakness": "Fairy",
+    "attacks": [
+        {
+            "name": "Tail Smack",
+            "cost": {
+                "colorless": 3
+            },
+            "damage": 80,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Dragonite",
+    "type": "Dragon",
+    "hp": 160,
+    "weakness": "Fairy",
+    "attacks": [
+        {
+            "name": "Draco Meteor",
+            "cost": {
+                "water": 2,
+                "electric": 2
+            },
+            "damage": null,
+            "effect": {
+                "action": "spread_damage",
+                "amount": 50,
+                "description": "Flip 4 coins. For each heads, this attack does 50 damage to 1 of your opponent's Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Stage 2",
+    "effect": null
+},
+{
+    "name": "Pidgey",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Gust",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 10,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Pidgeotto",
+    "type": "Colorless",
+    "hp": 80,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Gust",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Pidgeot",
+    "type": "Colorless",
+    "hp": 130,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Wing Attack",
+            "cost": {
+                "colorless": 3
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 2",
+    "effect": {
+        "action": "switch_opponent_pokemon",
+        "description": "Once during your turn, you may switch your opponent's Active Pokémon with 1 of their Benched Pokémon."
+    }
+},
+{
+    "name": "Rattata",
+    "type": "Colorless",
+    "hp": 40,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Gnaw",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Raticate",
+    "type": "Colorless",
+    "hp": 80,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Spearow",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Peck",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Fearow",
+    "type": "Colorless",
+    "hp": 100,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Drill Run",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 50,
+            "effect": {
+                "action": "discard_energy",
+                "condition": "coin_flip_heads",
+                "description": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Jigglypuff",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Pound",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Wigglytuff",
+    "type": "Colorless",
+    "hp": 100,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Hyper Voice",
+            "cost": {
+                "colorless": 3
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Wigglytuff EX",
+    "type": "Colorless",
+    "hp": 140,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Sleepy Song",
+            "cost": {
+                "colorless": 3
+            },
+            "damage": 80,
+            "effect": {
+                "action": "apply_status",
+                "status": "asleep",
+                "target": "opponent_active",
+                "description": "Your opponent's Active Pokémon is now Asleep."
+            }
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "EX",
+    "effect": null
+},
+{
+    "name": "Meowth",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Pay Day",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 10,
+            "effect": {
+                "action": "draw_card",
+                "description": "Draw a card."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Persian",
+    "type": "Colorless",
+    "hp": 90,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Shadow Claw",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 40,
+            "effect": {
+                "action": "discard_random_card",
+                "target": "opponent_hand",
+                "description": "Flip a coin. If heads, discard a random card from your opponent's hand."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Farfetch'd",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Leek Slap",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Doduo",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Peck",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Dodrio",
+    "type": "Colorless",
+    "hp": 80,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Drill Peck",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 40,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 0,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Lickitung",
+    "type": "Colorless",
+    "hp": 90,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Continuous Lick",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 60,
+            "effect": {
+                "action": "coin_flip_multiple",
+                "description": "Flip a coin until you get tails. This attack does 60 damage for each heads."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Chansey",
+    "type": "Colorless",
+    "hp": 120,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Gentle Slap",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 60,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Kangaskhan",
+    "type": "Colorless",
+    "hp": 100,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Dizzy Punch",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 30,
+            "effect": {
+                "action": "coin_flip_multiple",
+                "bonus_damage_per_heads": 30,
+                "description": "Flip 2 coins. This attack does 30 damage for each heads."
+            }
+        }
+    ],
+    "retreat_cost": 3,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Tauros",
+    "type": "Colorless",
+    "hp": 100,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Horn Attack",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 50,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Ditto",
+    "type": "Colorless",
+    "hp": 70,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Copy Anything",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": null,
+            "effect": {
+                "action": "copy_opponent_attack",
+                "description": "Choose 1 of your opponent's Pokémon's attacks and use it as this attack. If this Pokémon doesn’t have the necessary Energy to use that attack, this attack does nothing."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Eevee",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Porygon",
+    "type": "Colorless",
+    "hp": 50,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Sharpen",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": {
+        "action": "reveal_top_card",
+        "description": "Once during your turn, you may look at the top card of your deck."
+    }
+},
+{
+    "name": "Aerodactyl",
+    "type": "Colorless",
+    "hp": 100,
+    "weakness": "Electric",
+    "attacks": [
+        {
+            "name": "Primal Wingbeat",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": null,
+            "effect": {
+                "action": "shuffle_opponent_active",
+                "condition": "coin_flip_heads",
+                "description": "Flip a coin. If heads, your opponent shuffles their Active Pokémon into their deck."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Snorlax",
+    "type": "Colorless",
+    "hp": 150,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Rollout",
+            "cost": {
+                "colorless": 4
+            },
+            "damage": 70,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 4,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Minccino",
+    "type": "Colorless",
+    "hp": 60,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Tail Smack",
+            "cost": {
+                "colorless": 1
+            },
+            "damage": 20,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Cinccino",
+    "type": "Colorless",
+    "hp": 90,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Do the Wave",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 30,
+            "effect": {
+                "action": "bonus_damage_per_bench",
+                "amount": 30,
+                "description": "This attack does 30 damage for each of your Benched Pokémon."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Wooloo",
+    "type": "Colorless",
+    "hp": 70,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": {
+                "colorless": 2
+            },
+            "damage": 30,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+},
+{
+    "name": "Dubwool",
+    "type": "Colorless",
+    "hp": 120,
+    "weakness": "Fighting",
+    "attacks": [
+        {
+            "name": "Rolling Tackle",
+            "cost": {
+                "colorless": 3
+            },
+            "damage": 80,
+            "effect": null
+        }
+    ],
+    "retreat_cost": 2,
+    "stage": "Stage 1",
+    "effect": null
+},
+{
+    "name": "Mew",
+    "type": "Psychic",
+    "hp": 60,
+    "weakness": "Dark",
+    "attacks": [
+        {
+            "name": "Psy Report",
+            "cost": {
+                "psychic": 1
+            },
+            "damage": 20,
+            "effect": {
+                "action": "reveal_hand",
+                "target": "opponent",
+                "description": "Your opponent reveals their hand."
+            }
+        }
+    ],
+    "retreat_cost": 1,
+    "stage": "Basic",
+    "effect": null
+}
+]

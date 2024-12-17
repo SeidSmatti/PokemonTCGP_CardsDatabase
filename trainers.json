@@ -1,0 +1,160 @@
+[
+    {
+        "name": "Erika",
+        "type": "Supporter",
+        "effect": {
+            "action": "heal",
+            "target": "single_grass_pokemon",
+            "amount": 50,
+            "description": "Heal 50 damage from 1 of your Grass Pokémon."
+        }
+    },
+    {
+        "name": "Misty",
+        "type": "Supporter",
+        "effect": {
+            "action": "attach_energy",
+            "energy_type": "water",
+            "target": "single_water_pokemon",
+            "condition": "coin_flip_until_tails",
+            "amount_per_heads": 1,
+            "description": "Choose 1 of your Water Pokémon, and flip a coin until you get tails. For each heads, take a Water Energy from your Energy Zone and attach it to that Pokémon."
+        }
+    },
+    {
+        "name": "Blaine",
+        "type": "Supporter",
+        "effect": {
+            "action": "increase_damage",
+            "target_pokemon": ["Ninetales", "Rapidash", "Magmar"],
+            "amount": 30,
+            "duration": "this_turn",
+            "description": "During this turn, attacks used by your Ninetales, Rapidash, or Magmar do +30 damage to your opponent's Active Pokémon."
+        }
+    },
+    {
+        "name": "Koga",
+        "type": "Supporter",
+        "effect": {
+            "action": "return_to_hand",
+            "target_pokemon": ["Muk", "Weezing"],
+            "condition": "must_be_in_active_spot",
+            "description": "Put your Muk or Weezing in the Active Spot into your hand."
+        }
+    },
+    {
+        "name": "Giovanni",
+        "type": "Supporter",
+        "effect": {
+            "action": "increase_damage",
+            "target": "all_your_pokemon",
+            "amount": 10,
+            "duration": "this_turn",
+            "description": "During this turn, attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon."
+        }
+    },
+    {
+        "name": "Brock",
+        "type": "Supporter",
+        "effect": {
+            "action": "attach_energy",
+            "energy_type": "fighting",
+            "target_pokemon": ["Golem", "Onix"],
+            "amount": 1,
+            "source": "energy_zone",
+            "description": "Take a Fighting Energy from your Energy Zone and attach it to Golem or Onix."
+        }
+    },
+    {
+        "name": "Sabrina",
+        "type": "Supporter",
+        "effect": {
+            "action": "switch_opponent_active",
+            "target": "opponent_bench",
+            "opponent_chooses": true,
+            "description": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+        }
+    },
+    {
+        "name": "Lt. Surge",
+        "type": "Supporter",
+        "effect": {
+            "action": "move_energy",
+            "energy_type": "electric",
+            "source": "your_bench",
+            "target_pokemon": ["Raichu", "Electrode", "Electabuzz"],
+            "condition": "must_be_in_active_spot",
+            "description": "Move all Electric Energy from your Benched Pokémon to your Raichu, Electrode, or Electabuzz in the Active Spot."
+        }
+    },
+    {
+        "name": "Potion",
+        "type": "Item",
+        "effect": {
+            "action": "heal",
+            "target": "single_pokemon",
+            "amount": 20,
+            "description": "Heal 20 damage from 1 of your Pokémon."
+        }
+    },
+    {
+        "name": "X Speed",
+        "type": "Item",
+        "effect": {
+            "action": "reduce_retreat_cost",
+            "target": "your_active_pokemon",
+            "amount": 1,
+            "duration": "this_turn",
+            "description": "During this turn, the Retreat Cost of your Active Pokémon is 1 less."
+        }
+    },
+    {
+        "name": "Hand Scope",
+        "type": "Item",
+        "effect": {
+            "action": "reveal_hand",
+            "target": "opponent",
+            "description": "Your opponent reveals their hand."
+        }
+    },
+    {
+        "name": "Pokédex",
+        "type": "Item",
+        "effect": {
+            "action": "look_at_top_cards",
+            "target": "your_deck",
+            "amount": 3,
+            "description": "Look at the top 3 cards of your deck."
+        }
+    },
+    {
+        "name": "Poké Ball",
+        "type": "Item",
+        "effect": {
+            "action": "search_deck",
+            "target": "basic_pokemon",
+            "result": "add_to_hand",
+            "description": "Put 1 random Basic Pokémon from your deck into your hand."
+        }
+    },
+    {
+        "name": "Red Card",
+        "type": "Item",
+        "effect": {
+            "action": "shuffle_hand",
+            "target": "opponent",
+            "draw_new_cards": 3,
+            "description": "Your opponent shuffles their hand into their deck and draws 3 cards."
+        }
+    },
+    {
+        "name": "Professor's Research",
+        "type": "Supporter",
+        "effect": {
+            "action": "draw_cards",
+            "amount": 2,
+            "description": "Draw 2 cards."
+        }
+    }
+]
+
