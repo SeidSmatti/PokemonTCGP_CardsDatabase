@@ -3,6 +3,8 @@
 ## What is in this repo ? 
 As the title says,a list of all the cards (up to ⯁⯁⯁⯁) with their details (HP, attacks, effects, etc)
 
+***NOTE*** : This only contains the data for the very first set so far.
+
 ## About
 This repository is a fan-made compilation of details about Pokémon cards, such as card names, sets, and attributes. It is intended for informational and educational purposes only, to assist collectors and fans in understanding and organizing their collections.
 
